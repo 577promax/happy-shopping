@@ -1,0 +1,214 @@
+.home-page {
+  overflow-y: scroll;
+  padding-bottom: .5rem;
+  background: #F5F9FA;
+
+  .banner {
+    position: relative;
+    height: 2.3rem;
+    background: #73D13D;
+
+    .location {
+      line-height: .24rem;
+      padding: .14rem .14rem .12rem .14rem;
+      color: #FFF;
+      font-size: .16rem;
+      line-height: .22rem;
+      font-weight: normal;
+
+      .iconfont {
+        margin-right: .1rem;
+      }
+    }
+
+    .search {
+      margin: 0 auto .2rem auto;
+      width: 3.4rem;
+      height: .36rem;
+      line-height: .36rem;
+      background: #FFF;
+      color: #808080;
+      font-size: .14rem;
+      border-radius: .18rem;
+
+      .iconfont {
+        margin-left: .12rem;
+        margin-right: .08rem;
+      }
+    }
+
+    .swiper-area {
+      .swiper-item {
+        margin-left: .18rem;
+
+        &-img {
+          width: 3.4rem;
+          height: .9rem;
+        }
+      }
+
+      .pagination {
+        position: absolute;
+        z-index: 999;
+        left: 50%;
+        bottom: .36rem;
+        transform: translateX(-50%);
+        color: #FFF;
+        font-size: .12rem;
+        line-height: .2rem;
+        text-align: center;
+        background: #52C41A;
+        border-radius: .1rem;
+        padding: 0 .1rem;
+      }
+    }
+  }
+
+  .category {
+    position: relative;
+    margin-top: -.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .12rem;
+    padding-bottom: .2rem;
+    background: #FFF;
+    border-radius: .2rem .2rem 0 0;
+
+    &-item {
+      flex: 0 0 25%;
+      text-align: center;
+
+      &-img {
+        margin-top: .16rem;
+        margin-bottom: .13rem;
+        width: .42rem;
+        height: .36rem;
+      }
+
+      &-desc {
+        color: #242424;
+        line-height: .18rem;
+        text-align: center;
+      }
+    }
+  }
+
+  .card {
+    margin-top: .1rem;
+    background: #FFF;
+    font-size: .12rem;
+
+    &-title {
+      position: relative;
+      padding: .14rem .1rem 0 .1rem;
+      color: #242424;
+      font-size: .2rem;
+      line-height: .24rem;
+
+      &-img {
+        float: left;
+        width: 24px;
+      }
+
+      &-more {
+        font-size: .16rem;
+        line-height: .18rem;
+        position: absolute;
+        bottom: 0;
+        right: .1rem;
+        font-weight: normal;
+
+        .iconfont {
+          font-size: .16rem;
+          margin-left: .04rem;
+        }
+      }
+    }
+
+    &-content {
+      overflow-x: scroll;
+      white-space: nowrap;
+      margin-top: .2rem;
+      padding-bottom: .14rem;
+
+      &-item {
+        margin-right: .06rem;
+        display: inline-block;
+        width: 1.1rem;
+
+        &-img {
+          width: 1.1rem;
+          height: 1.1rem;
+        }
+
+        &-desc {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          margin: .06rem;
+          color: #242424;
+          font-size: .12rem;
+          line-height: .18rem;
+          white-space: normal;
+          word-break: break-all;
+        }
+
+        &-price {
+          position: relative;
+          margin: 0 .06rem;
+          color: #F81C00;
+          font-size: .2rem;
+          line-height: .24rem;
+
+          .iconfont {
+            position: absolute;
+            right: .06rem;
+            bottom: .02rem;
+            color: #73D13D;
+          }
+        }
+
+        &-yen {
+          font-size: .12rem;
+        }
+      }
+    }
+  }
+
+  .docker {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    height: .49rem;
+    display: flex;
+    background: #FFF;
+    border-top: .01rem solid #F5F9FA;
+    font-size: .12rem;
+    color: #B3C1C4;
+    text-align: center;
+
+    &-item {
+      flex: 1;
+
+      &-icon {
+        margin: .04rem 0;
+        font-size: .18rem;
+      }
+    }
+
+    &-item-active {
+      color: #73D13D;
+    }
+  }
+
+  .bottom {
+    line-height: 1rem;
+    color: #B3C1C4;
+    font-size: .12rem;
+    text-align: center;
+  }
+}

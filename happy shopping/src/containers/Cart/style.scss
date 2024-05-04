@@ -1,0 +1,160 @@
+.cart-page {
+  background: #F5F9FA;
+  overflow-y: scroll;
+  padding-bottom: 1.12rem;
+
+  .title {
+    line-height: .44rem;
+    font-size: .18rem;
+    color: #242424;
+    background: #FFF;
+    text-align: center;
+  }
+
+  .radio {
+    position: absolute;
+    left: .1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: .24rem;
+    height: .24rem;
+    border-radius: .12rem;
+    border: .01rem solid #B1B1B1;
+
+    &-active {
+      background: #73D13D;
+      border: none;
+    }
+  }
+
+  .shop {
+    margin-top: .1rem;
+    background: #FFF;
+
+    &-title {
+      position: relative;
+      padding-top: .12rem;
+      padding-bottom: .04rem;
+      padding-left: .48rem;
+      line-height: .24rem;
+      font-size: .16rem;
+
+      .iconfont {
+        margin-right: .08rem;
+      }
+
+      .radio {
+        top: .24rem;
+      }
+    }
+
+    &-product {
+      display: flex;
+      position: relative;
+      padding: .16rem .1rem .16rem 0;
+
+      &-img {
+        display: block;
+        margin-left: .48rem;
+        margin-right: .08rem;
+        width: .96rem;
+        height: .96rem;
+      }
+
+      &-content {
+        flex: 1;
+      }
+
+      &-title {
+        color: #242424;
+        font-size: .14rem;
+        line-height: .22rem;
+        word-wrap: break-word;
+        word-break: break-all;
+      }
+
+      &-kilo {
+        margin-top: .08rem;
+        color: #B1B1B1;
+        font-size: .12rem;
+        line-height: .18rem;
+      }
+
+      &-price {
+        margin-top: .14rem;
+        color: #CF1322;
+        font-size: .16rem;
+
+        &-yen {
+          font-size: .12rem;
+        }
+      }
+
+      &-count {
+        position: absolute;
+        right: .1rem;
+        bottom: .1rem;
+        display: block;
+        height: .24rem;
+        line-height: .24rem;
+        width: .4rem;
+        font-size: .12rem;
+        border: .01rem solid #DFDFDF;
+        outline: none;
+        text-align: center;
+      }
+    }
+  }
+
+  .total-price {
+    display: flex;
+    position: fixed;
+    height: .5rem;
+    line-height: .5rem;
+    bottom: .5rem;
+    left: 0;
+    right: 0;
+    background: #FFF;
+    font-size: .15rem;
+
+    .select-all {
+      width: .94rem;
+
+      &-text {
+        margin-left: .44rem;
+        color: #BBB;
+      }
+    }
+
+    .total {
+      display: flex;
+      flex: 1;
+
+      &-text {
+        flex: 1;
+        font-size: .15rem;
+        color: #242424;
+        text-align: right;
+      }
+
+      &-price-inner {
+        width: .8rem;
+        text-align: right;
+        color: #CF1322;
+        font-size: .18rem;
+        margin-right: .08rem;
+
+        &-yen {
+          font-size: .12rem;
+        }
+      }
+    }
+
+    .check {
+      width: 1.35rem;
+      background: #73D13D;
+      text-align: center;
+      color: #FFF;
+    }
+  }
+}

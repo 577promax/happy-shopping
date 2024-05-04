@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  /* Project id 4524195 */
+  src: url('//at.alicdn.com/t/c/font_4524195_rxohepol2n.woff2?t=1714728146980') format('woff2'),
+    url('//at.alicdn.com/t/c/font_4524195_rxohepol2n.woff?t=1714728146980') format('woff'),
+    url('//at.alicdn.com/t/c/font_4524195_rxohepol2n.ttf?t=1714728146980') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  outline: none;
+  background: transparent;
+  border: none;
+  outline: medium;
+}
+
+.page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFF;
+}

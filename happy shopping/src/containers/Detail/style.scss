@@ -1,0 +1,268 @@
+.detail-page {
+  overflow-y: scroll;
+  background: #F5F9FA;
+  padding-bottom: .78rem;
+
+  .title {
+    position: relative;
+    line-height: .44rem;
+    font-size: .18rem;
+    color: #242424;
+    background: #FFF;
+    text-align: center;
+
+    .iconfont {
+      position: absolute;
+      left: .1rem;
+      top: 0;
+    }
+  }
+
+  .image {
+    display: block;
+    width: 100vw;
+    height: 100vw;
+  }
+
+  .main {
+    margin: .17rem .1rem 0 .1rem;
+    position: relative;
+    padding-top: .74rem;
+    font-size: .18rem;
+    background: #52C41A;
+    border-radius: .15rem;
+
+    &-price {
+      position: absolute;
+      color: #FFF;
+      font-size: .22rem;
+      top: .18rem;
+      left: .1rem;
+      font-weight: bold;
+
+      &-yen {
+        font-size: .14rem;
+        margin-right: .02rem;
+        font-weight: normal;
+      }
+    }
+
+    &-sales {
+      position: absolute;
+      color: #FFF;
+      font-size: .16rem;
+      right: .17rem;
+      top: .18rem;
+      font-weight: bold;
+    }
+
+    &-content {
+      padding: .2rem .1rem .1rem .1rem;
+      margin-top: -.15rem;
+      background: #FFF;
+      border-radius: .15rem;
+
+      &-title {
+        color: #242424;
+        font-size: .18rem;
+        line-height: .24rem;
+      }
+
+      &-subtitle {
+        margin-top: .04rem;
+        color: #C9CDD4;
+        font-size: .14rem;
+        line-height: .2rem;
+      }
+    }
+  }
+
+  .spec {
+    margin: .1rem .08rem 0 .08rem;
+    border-radius: 15px;
+    background: #FFF;
+
+    &-title {
+      margin-left: .1rem;
+      color: #242424;
+      font-size: .16rem;
+      line-height: .4rem;
+    }
+
+    &-content {
+      margin: 0 .12rem .12rem .12rem;
+      padding-bottom: .12rem;
+      display: flex;
+
+      &-left {
+        padding: .05rem 0;
+        width: .62rem;
+        background: #F2F3F5;
+        text-align: center;
+        border: 1px solid #D7D7D7;
+        border-radius: .05rem 0 0 .05rem;
+      }
+
+      &-right {
+        padding: .05rem .1rem;
+        flex: 1;
+        border-top: 1px solid #D7D7D7;
+        border-right: 1px solid #D7D7D7;
+        border-bottom: 1px solid #D7D7D7;
+        border-radius: 0 .05rem .05rem 0;
+      }
+
+      &-item {
+        color: #242424;
+        font-size: .14rem;
+        line-height: .2rem;
+      }
+    }
+  }
+
+  .detail {
+    margin: .1rem .08rem 0 .08rem;
+    border-radius: 15px;
+    background: #FFF;
+
+    &-title {
+      margin-left: .1rem;
+      color: #242424;
+      font-size: .16rem;
+      line-height: .4rem;
+    }
+
+    &-content {
+      padding: .13rem .16rem .16rem .16rem;
+      color: #242424;
+      font-size: .16rem;
+      line-height: .27rem;
+    }
+  }
+
+  .docker {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .64rem;
+    background: #FFF;
+    border-top: .01rem solid #F5F9FA;
+
+    .cart-icon {
+      width: 1.2rem;
+      text-align: center;
+
+      .iconfont {
+        margin-top: .1rem;
+        font-size: .24rem;
+      }
+
+      .icon-text {
+        font-size: .14rem;
+      }
+    }
+
+    .cart-button {
+      flex: 1;
+      margin-top: .1rem;
+      margin-right: .16rem;
+      height: .44rem;
+      line-height: .44rem;
+      font-size: .16rem;
+      background: #73D13D;
+      border-radius: .22rem;
+      text-align: center;
+      color: #FFF;
+    }
+  }
+
+  .cart {
+    &-content {
+      padding: .2rem .2rem .34rem .2rem;
+      display: flex;
+      border-bottom: .01rem solid #F4F4F4;
+
+      &-img {
+        margin-right: .48rem;
+        display: block;
+        width: .7rem;
+        height: .7rem;
+      }
+
+      &-info {
+        font-size: .12rem;
+      }
+
+      &-title {
+        margin-right: .45rem;
+        color: #242424;
+        line-height: .18rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        white-space: normal;
+        word-break: break-all;
+      }
+
+      &-price {
+        margin-top: .1rem;
+        color: #F81C00;
+        font-size: .22rem;
+
+        &-yen {
+          font-size: .14rem;
+          margin-right: .02rem;
+          font-weight: normal;
+        }
+      }
+    }
+
+    &-count {
+      padding: .35rem .16rem;
+
+      &-content {
+        height: .28rem;
+        line-height: .28rem;
+        color: #242424;
+        font-size: .14rem;
+      }
+
+      &-counter {
+        float: right;
+        font-size: 0;
+      }
+
+      &-button,
+      &-text {
+        display: inline-block;
+        font-size: .18rem;
+        line-height: .28rem;
+        text-align: center;
+        background: #F4F4F4;
+      }
+
+      &-button {
+        width: .28rem;
+      }
+
+      &-text {
+        margin: 0 .1rem;
+        padding: 0 .08rem;
+      }
+    }
+
+    &-button {
+      line-height: .44rem;
+      margin: .1rem .16rem;
+      border-radius: .22rem;
+      background: #73D13D;
+      font-size: .16rem;
+      color: #FFF;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "sussess": true,
+  "data": {
+    "location": {
+      "id": "201235",
+      "address": "优果购(昌平店)"
+    },
+    "banners": [{
+      "id": "1135",
+      "imgUrl": "http://statics.dell-lee.com/shopping/banner.png"
+    }, {
+      "id": "1136",
+      "imgUrl": "http://statics.dell-lee.com/shopping/banner.png"
+    }],
+    "categories": [{
+      "id": "113231",
+      "name": "新鲜蔬菜",
+      "imgUrl": "http://statics.dell-lee.com/shopping/category-1.png"
+    },{
+      "id": "113232",
+      "name": "鲜肉蛋禽",
+      "imgUrl": "http://statics.dell-lee.com/shopping/category-2.png"
+    },{
+      "id": "113233",
+      "name": "时令水果",
+      "imgUrl": "http://statics.dell-lee.com/shopping/category-3.png"
+    },{
+      "id": "113234",
+      "name": "乳品烘焙",
+      "imgUrl": "http://statics.dell-lee.com/shopping/category-4.png"
+    },{
+      "id": "113235",
+      "name": "粮油速食",
+      "imgUrl": "http://statics.dell-lee.com/shopping/category-5.png"
+    },{
+      "id": "113236",
+      "name": "休闲零食",
+      "imgUrl": "http://statics.dell-lee.com/shopping/category-6.png"
+    },{
+      "id": "113237",
+      "name": "家居百货",
+      "imgUrl": "http://statics.dell-lee.com/shopping/category-7.png"
+    },{
+      "id": "113238",
+      "name": "个护美妆",
+      "imgUrl": "http://statics.dell-lee.com/shopping/category-8.png"
+    }],
+    "freshes": [{
+      "id": "1132381",
+      "name": "金锣 国产猪肉 去皮猪五花肉块",
+      "imgUrl": "http://statics.dell-lee.com/shopping/fresh-1.png",
+      "price": "66.9"
+    },{
+      "id": "1132382",
+      "name": "肉管家 俄罗斯进口Prime级谷饲料养殖",
+      "imgUrl": "http://statics.dell-lee.com/shopping/fresh-2.png",
+      "price": "98"
+    },{
+      "id": "1132383",
+      "name": "乐食港 鲜活波士顿龙虾 2只装大包装",
+      "imgUrl": "http://statics.dell-lee.com/shopping/fresh-3.png",
+      "price": "378"
+    },{
+      "id": "1132384",
+      "name": "初鲜 冷冻鱿鱼头 冷冻鱿鱼须400g",
+      "imgUrl": "http://statics.dell-lee.com/shopping/fresh-4.png",
+      "price": "39"
+    }]
+  }
+}

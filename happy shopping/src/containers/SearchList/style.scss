@@ -1,0 +1,137 @@
+.search-list-page {
+  font-size: .14rem;
+  background: #F5F9FA;
+  overflow-y: scroll;
+
+  a {
+    text-decoration: none;
+  }
+
+  .search {
+    display: flex;
+    padding: .08rem .32rem .06rem 0;
+    background: #FFF;
+
+    &-back-link {
+      text-decoration: none;
+    }
+
+    &-back-icon {
+      line-height: 0.32rem;
+      width: 0.48rem;
+      font-size: .18rem;
+      text-align: center;
+      color: #242424;
+
+    }
+
+    &-area {
+      position: relative;
+      display: flex;
+      line-height: 0.32rem;
+      background-color: #F5F9FA;
+      border-radius: .16rem;
+      flex: 1;
+
+      .search-icon {
+        width: 0.3rem;
+        text-align: center;
+        color: #75818F;
+      }
+
+      .search-input {
+        flex: 1;
+        padding-right: .1rem;
+        background: none;
+        outline: none;
+        border: none;
+        color: #242424;
+      }
+    }
+
+    &-clear {
+      position: absolute;
+      font-size: .22rem;
+      color: #75818F;
+      right: .4rem;
+      top: .12rem;
+    }
+  }
+
+  .tab {
+    display: flex;
+    background: #FFF;
+
+    &-item {
+      flex: 1;
+      line-height: 0.4rem;
+      text-align: center;
+      color: #b1b1b1;
+      font-size: .14rem;
+    }
+
+    &-item-active {
+      color: #242424;
+    }
+  }
+
+  .list {
+    padding: 0 .1rem;
+
+    .item {
+      display: flex;
+      margin-top: .1rem;
+      padding: .1rem;
+      background: #FFF;
+
+      &-img {
+        width: 1.08rem;
+        height: 1.08rem;
+        margin-right: .1rem;
+      }
+
+      &-content {
+        position: relative;
+        flex: 1;
+      }
+
+      &-title {
+        color: #242424;
+        font-size: .14rem;
+        line-height: .22rem;
+
+      }
+
+      &-price {
+        position: absolute;
+        color: #F81C00;
+        left: 0;
+        bottom: 0;
+        font-size: .16rem;
+        line-height: .24rem;
+
+      }
+
+      &-price-yen {
+        font-size: .12rem;
+        margin-right: .04rem;
+      }
+
+      &-sales {
+        position: absolute;
+        right: 0;
+        bottom: .06rem;
+        color: #b1b1b1;
+        font-size: .12rem;
+        line-height: .16rem;
+      }
+    }
+  }
+
+  .bottom {
+    line-height: 1rem;
+    color: #B3C1C4;
+    font-size: .12rem;
+    text-align: center;
+  }
+}
